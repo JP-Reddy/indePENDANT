@@ -1,0 +1,47 @@
+
+
+/**************************************************************************
+**                                                                        *
+**  FILE        :  signal.h                                               *
+**                                                                        *
+**  DESCRIPTION :  Include file with prototypes and macros for handling	  *
+**		   various signals.					  *
+**                                                                        *
+**  Copyright 1996-2011 Altium BV                                         *
+**                                                                        *
+**************************************************************************/
+
+#ifndef	_SIGNAL_H
+#define _SIGNAL_H
+
+#ifdef	__cplusplus
+extern "C" {
+#endif	/* defined(__cplusplus) */
+
+#ifndef _USMLIB
+#define _USMLIB
+#endif
+
+typedef int	sig_atomic_t;
+typedef void 	signalfunction( int );
+
+#define _NSIG		7 /* one more then last code */
+
+#define SIGINT		1
+#define SIGILL		2
+#define SIGFPE		3
+#define SIGSEGV		4
+#define SIGTERM		5
+#define SIGABRT		6
+#define SIG_DFL 	(void (*)(int))0
+#define SIG_IGN 	(void (*)(int))1
+#define SIG_ERR 	(void (*)(int))-1
+
+extern	_USMLIB	signalfunction *signal(int, signalfunction *);
+extern	_USMLIB	int raise( int );
+
+#ifdef	__cplusplus
+}
+#endif	/* defined(__cplusplus) */
+
+#endif  /* _SIGNAL_H */
