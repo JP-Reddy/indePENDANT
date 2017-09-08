@@ -1,6 +1,6 @@
 module GoogleMapsHelper
 	def google_map(center)
-	  "https://maps.googleapis.com/maps/api/staticmap?center=#{center}&size=300x300&zoom=17&key=AIzaSyCxGbUAAoZuQDgMkjzXxKYchQLvqL5WRqc"
+	  "https://maps.googleapis.com/maps/api/staticmap?center=#{center}&size=300x300&zoom=17&key=AIzaSyAW7ad35KvXWH22Ny2VLsx9QdhvSJGphFo"
 	end
 	# def dynamic_map()
 	# 	"<iframe width="600" height="450" frameborder="0" style="border:10"

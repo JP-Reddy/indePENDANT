@@ -4,3 +4,5 @@ sudo su postgres
 gmaps api key AIzaSyCxGbUAAoZuQDgMkjzXxKYchQLvqL5WRqc
 
 RV Coordinates  [ 12.923047, 77.498950]
+
+google_map(center: [ 12.923047, 77.498950].join(','))

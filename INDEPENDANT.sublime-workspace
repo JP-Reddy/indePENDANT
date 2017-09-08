@@ -1,0 +1,590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upd",
+				"updated_at"
+			],
+			[
+				"up",
+				"updated_at"
+			],
+			[
+				"cr",
+				"created_at"
+			],
+			[
+				"prima",
+				"primarykeys"
+			],
+			[
+				"primary",
+				"primarykey"
+			],
+			[
+				"each",
+				"eachuser"
+			],
+			[
+				"pa",
+				"parse"
+			],
+			[
+				"en",
+				"environment"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"accoun",
+				"accountcatalog"
+			],
+			[
+				"I",
+				"IMAGE_HAS"
+			],
+			[
+				"A",
+				"ActiveBase"
+			],
+			[
+				"P",
+				"Product"
+			],
+			[
+				"S",
+				"Style"
+			],
+			[
+				"H",
+				"HAS_PRODUCT"
+			],
+			[
+				"all",
+				"allDurian"
+			],
+			[
+				"C",
+				"Category"
+			],
+			[
+				"prod",
+				"prodimage"
+			],
+			[
+				"Pr",
+				"Productlinks"
+			],
+			[
+				"subc",
+				"subcategory"
+			],
+			[
+				"text",
+				"texture"
+			],
+			[
+				"sub",
+				"subCategory"
+			],
+			[
+				"fini",
+				"finish"
+			],
+			[
+				"su",
+				"subtitle"
+			],
+			[
+				"begin",
+				"begin\tbegin … rescue … end"
+			],
+			[
+				"Style",
+				"style"
+			],
+			[
+				"tex",
+				"texture"
+			],
+			[
+				"bedo",
+				"bedroom_chairs"
+			],
+			[
+				"bed",
+				"bedroom_chairs"
+			],
+			[
+				"obj",
+				"objArray"
+			],
+			[
+				"pri",
+				"primaryCategory"
+			],
+			[
+				"i",
+				"i"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "class Api::V1::BaseController < ApplicationController\n\tprotect_from_forgery with: :null_session\n\n\tbefore_action :destroy_session\n\tdef show\n\t\tuser = User.find(params[:id])\n\n\t\trender(json: Api::V1::UserSerializer.new(user).to_json)\n\tend\n\n\n\tdef destroy_session\n\t\trequest.session_options[:skip] = true\n\tend\n\n\tdef created_at\n    \tobject.created_at.in_time_zone.iso8601 if object.created_at\n  \tend\n\n  def updated_at\n    object.updated_at.in_time_zone.iso8601 if object.created_at\n  end\nend",
+			"file": "app/controllers/api/v1/base_controller.rb",
+			"file_size": 207,
+			"file_write_time": 131493599225443144,
+			"settings":
+			{
+				"buffer_size": 483,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/api/v1/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 172,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class Api::V1::UsersController < Api::V1::BaseCont"
+			}
+		},
+		{
+			"file": "app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/serializers/api/v1/user_serializer.rb",
+			"settings":
+			{
+				"buffer_size": 382,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/indePENDANT/independant",
+		"/D/Projects/indePENDANT/independant/app",
+		"/D/Projects/indePENDANT/independant/app/controllers"
+	],
+	"file_history":
+	[
+		"/D/Projects/indePENDANT/independant/config/routes.rb",
+		"/D/Projects/indePENDANT/independant/app/controllers/api/v1/latlong_controller.rb",
+		"/D/Projects/ObjectDetection/PyQt4_gpl_win-4.12.1/README",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/object_detection_tutorial.py",
+		"/D/Projects/ObjectDetection/development/object_detection_tutorial.py",
+		"/D/Projects/indePENDANT/independant/app/controllers/hello_controller.rb",
+		"/D/Projects/indePENDANT/independant/app/helpers/application_helper.rb",
+		"/D/Projects/indePENDANT/independant/app/helpers/google_maps_helper.rb",
+		"/D/Projects/indePENDANT/independant/app/controllers/application_controller.rb",
+		"/D/Projects/indePENDANT/independant/app/views/hello/index.html.erb",
+		"/D/Work/Superbolter/Structure/app/controllers/api/v1/recommendations_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/api_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/hyperloop/v1/users/likes_controller.rb",
+		"/D/Projects/indePENDANT/independant/app/helpers/google_maps.rb",
+		"/D/Projects/indePENDANT/independant/Gemfile",
+		"/D/Miscellaneous/Ellapadagalu/app/models/bot.rb",
+		"/D/Miscellaneous/Ellapadagalu/config/application.yml",
+		"/D/Miscellaneous/Ellapadagalu/config/initializers/twitter.rb",
+		"/D/Projects/indePENDANT/independant/app/helpers/hello_helper.rb",
+		"/D/Projects/indePENDANT/webstuff/config/database.yml",
+		"/D/Projects/indePENDANT/webstuff/config/routes.rb",
+		"/D/Projects/indePENDANT/webstuff/app/views/home/index.html.erb",
+		"/D/Projects/indePENDANT/webstuff/Gemfile",
+		"/D/Projects/indePENDANT/indePENDANT/Gemfile",
+		"/D/Projects/indePENDANT/webstuff/config/application.yml",
+		"/D/Work/Superbolter/Structure/config/application.yml",
+		"/D/Work/Superbolter/Structure/config/environment.rb",
+		"/D/Work/Superbolter/Structure/config/routes.rb",
+		"/D/Projects/indePENDANT/webstuff/config/application.rb",
+		"/D/Projects/indePENDANT/webstuff/app/models/application_record.rb",
+		"/D/Projects/indePENDANT/webstuff/app/controllers/application_controller.rb",
+		"/D/Projects/indePENDANT/webstuff/app/views/layouts/mailer.text.erb",
+		"/D/Projects/indePENDANT/webstuff/app/views/layouts/mailer.html.erb",
+		"/D/Projects/indePENDANT/webstuff/app/views/layouts/application.html.erb",
+		"/D/Projects/cr1.py",
+		"/D/Projects/cr2.py",
+		"/D/Projects/cr3.py",
+		"/D/Miscellaneous/Ellapadagalu/config/application.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/update.rake",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/environments/development.rb",
+		"/C/Users/guthi/Anaconda3/envs/tfgpu/Lib/importlib/__init__.py",
+		"/C/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v8.0/lib/x64/cudnn.lib",
+		"/D/Miscellaneous/Ellapadagalu/Gemfile",
+		"/D/Projects/DBMS(Gourish)/ddecor.rb",
+		"/D/CV Stuff/conservative.m",
+		"/D/Projects/DBMS(Gourish)/Scraper.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/synchronize.rake",
+		"/D/Work/Superbolter/Structure/lib/tasks/create.rake",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/database.yml",
+		"/D/Work/Superbolter/Structure/app/models/Snippets.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/synchronize_rel.rake",
+		"/D/Work/Superbolter/Structure/Validation.bat",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/core/model.py",
+		"/D/Projects/DBMS(Gourish)/poster_gully.rb",
+		"/C/Program Files/PostgreSQL/9.6/include/server/postmaster/postmaster.h",
+		"/C/Program Files/PostgreSQL/9.6/data/postmaster.pid",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/environments/production.rb",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/environments/test.rb",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/application.rb",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/db/seeds.rb",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/nearest_neighbor.ipynb",
+		"/D/Work/Superbolter/Structure/lichess.txt",
+		"/D/Projects/DBMS(Gourish)/Lichesslinks.txt",
+		"/C/Users/guthi/Downloads/schema.rb",
+		"/C/Users/guthi/Downloads/lichess_pgn_2017.08.17_maxgreeng_vs_BahadirOzen.aUO7gqCX (1).pgn",
+		"/C/Users/guthi/Desktop/ML/machine-learning-ex1/ex1/ex1_multi.m",
+		"/C/Users/guthi/Desktop/ML/machine-learning-ex1/machine-learning-ex2/ex2/ex2_reg.m",
+		"/C/Users/guthi/Downloads/lichess_pgn_2017.08.08_Adautolucas_vs_Stoil894.pEB7MmEI.pgn",
+		"/D/Work/Superbolter/Structure/app/models/account.rb",
+		"/D/Work/Superbolter/Structure/development/pf/ImageLinks.rb",
+		"/D/Work/Superbolter/Structure/development/load.rb",
+		"/C/Users/guthi/Desktop/test.bat",
+		"/D/Work/Superbolter/Structure/app/models/product.rb",
+		"/D/Work/Superbolter/Structure/app/models/user.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/application_controller.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/crup.rake",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/protos/anchor_generator_pb2.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/loadprotos.bat",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/builders/model_builder_test.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/utils/ops.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/models/ssd_inception_v2_feature_extractor.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/models/faster_rcnn_resnet_v1_feature_extractor.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/slim/nets/resnet_v1.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/next_frame_prediction/cross_conv/model.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models-master/object_detection/protos/train.proto",
+		"/D/Projects/ObjectDetection/Tensorflow models/models-master/object_detection/protos/__init__.py",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/development/pf/load.rb",
+		"/D/Work/Superbolter/Structure/development/pf/load.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/api/services_controller.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/resources/hyperloop/account.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/api_controller.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/api/v1/recommendations_controller.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/products_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/web_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/products_controller.rb",
+		"/D/Work/Superbolter/Structure/app/views/products/show.html.erb",
+		"/D/Work/Superbolter/Structure/app/models/design.rb",
+		"/D/Work/Superbolter/Structure/app/views/products/new.html.erb",
+		"/D/Work/Superbolter/Structure/app/models/primary_category.rb",
+		"/D/Work/Superbolter/Structure/app/models/style.rb",
+		"/D/Work/Superbolter/Structure/app/models/category.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/demo.rake",
+		"/D/Work/Superbolter/Structure/lib/tasks/sample.rake",
+		"/D/Work/Superbolter/Structure/waste.rb",
+		"/D/Work/Superbolter/Structure/development/crup.rake",
+		"/D/Work/Superbolter/Structure/config/application.rb",
+		"/D/Work/Superbolter/Structure/Gemfile",
+		"/D/Work/Superbolter/Cron/config/schedule.rb",
+		"/D/Work/Superbolter/Structure/app/resources/hyperloop/account.rb",
+		"/D/Work/Superbolter/Structure/app/helpers/application_helper.rb",
+		"/D/Work/Superbolter/Structure/app/resources/hyperloop/user.rb",
+		"/D/Work/Superbolter/Structure/app/resources/hyperloop/userAPI.rb",
+		"/D/Work/Superbolter/Cron/lib/tasks/create.rake",
+		"/D/Work/Superbolter/Structure/development/test.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/resources/hyperloop/user.rb",
+		"/D/Work/Superbolter/Cron/.gitignore",
+		"/D/Work/Superbolter/Structure/log/development.log",
+		"/D/Work/Superbolter/Structure/db/neo4j/schema.yml",
+		"/D/Work/Superbolter/Structure/lib/tasks/delete.rake",
+		"/D/Work/Superbolter/Cron/Gemfile",
+		"/D/Work/Superbolter/Cron/config/boot.rb",
+		"/D/Work/Superbolter/Structure/db/neo4j/migrate/20170719061250_create_account.rb",
+		"/D/Work/Superbolter/Structure/config/environments/test.rb",
+		"/D/Work/Superbolter/Structure/config/environments/development.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/accounts_controller.rb",
+		"/D/Work/Superbolter/Structure/testing2/lib/testing2/core_ext.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/my_namespace.rake"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"x",
+			"primarykey",
+			"#-",
+			"{",
+			"HAS_PRODUCT",
+			"page"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/api/v1/base_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/api/v1/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Api::V1::UsersController < Api::V1::BaseCont",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/application_controller.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/serializers/api/v1/user_serializer.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 29.0
+	},
+	"pinned_build_system": "",
+	"project": "INDEPENDANT.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

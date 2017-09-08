@@ -6,9 +6,15 @@
 </p>
 <p>
 	<!-- <image_tag google_map(center: [ 12.923047, 77.498950].join(','))> -->
-<!-- 	<%= dynamic_map() %>
- --> 
- <%= image_tag google_map(center: [ 12.923047, 77.498950].join(',')) %>
- 	<!-- <%=image_tag google_map(center: [ 12.923047, 77.498950].join(','))  %> -->
-<!-- </iframe> -->
+<iframe width="300" height="300" frameborder="0" style="border:0"
+	src=<%= google_map([ 12.923047, 77.498950].join(','))%>>
+	</iframe>
+
+<p>Blah blah</p>
+
+<iframe width="300" height="300" frameborder="0" style="border:0"
+ src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAW7ad35KvXWH22Ny2VLsx9QdhvSJGphFo&q=12.923047,77.498950"
+ allowfullscreen>
+</iframe>
+ 
 </p>
