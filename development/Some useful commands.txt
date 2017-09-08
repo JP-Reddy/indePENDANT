@@ -1,0 +1,6 @@
+ sudo service postgresql start
+sudo su postgres
+
+gmaps api key AIzaSyCxGbUAAoZuQDgMkjzXxKYchQLvqL5WRqc
+
+RV Coordinates  [ 12.923047, 77.498950]

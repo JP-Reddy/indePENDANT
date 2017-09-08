@@ -1,0 +1,14 @@
+
+<h2>Home page</h2>
+<h3>Tracking location</h3>
+<p>
+  The time is now: <%= Time.now %>
+</p>
+<p>
+	<!-- <image_tag google_map(center: [ 12.923047, 77.498950].join(','))> -->
+<!-- 	<%= dynamic_map() %>
+ --> 
+ <%= image_tag google_map(center: [ 12.923047, 77.498950].join(',')) %>
+ 	<!-- <%=image_tag google_map(center: [ 12.923047, 77.498950].join(','))  %> -->
+<!-- </iframe> -->
+</p>
