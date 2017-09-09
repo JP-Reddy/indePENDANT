@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Imei:</strong>
+  <%= @usercontact.imei %>
+</p>
+
+<p>
+  <strong>Contacts:</strong>
+  <%= @usercontact.contacts %>
+</p>
+
+<%= link_to 'Edit', edit_usercontact_path(@usercontact) %> |
+<%= link_to 'Back', usercontacts_path %>

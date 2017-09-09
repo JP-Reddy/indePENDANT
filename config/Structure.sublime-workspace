@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upd",
+				"updated_at"
+			],
+			[
+				"up",
+				"updated_at"
+			],
+			[
+				"cr",
+				"created_at"
+			],
+			[
+				"prima",
+				"primarykeys"
+			],
+			[
+				"primary",
+				"primarykey"
+			],
+			[
+				"each",
+				"eachuser"
+			],
+			[
+				"pa",
+				"parse"
+			],
+			[
+				"en",
+				"environment"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"accoun",
+				"accountcatalog"
+			],
+			[
+				"I",
+				"IMAGE_HAS"
+			],
+			[
+				"A",
+				"ActiveBase"
+			],
+			[
+				"P",
+				"Product"
+			],
+			[
+				"S",
+				"Style"
+			],
+			[
+				"H",
+				"HAS_PRODUCT"
+			],
+			[
+				"all",
+				"allDurian"
+			],
+			[
+				"C",
+				"Category"
+			],
+			[
+				"prod",
+				"prodimage"
+			],
+			[
+				"Pr",
+				"Productlinks"
+			],
+			[
+				"subc",
+				"subcategory"
+			],
+			[
+				"text",
+				"texture"
+			],
+			[
+				"sub",
+				"subCategory"
+			],
+			[
+				"fini",
+				"finish"
+			],
+			[
+				"su",
+				"subtitle"
+			],
+			[
+				"begin",
+				"begin\tbegin … rescue … end"
+			],
+			[
+				"Style",
+				"style"
+			],
+			[
+				"tex",
+				"texture"
+			],
+			[
+				"bedo",
+				"bedroom_chairs"
+			],
+			[
+				"bed",
+				"bedroom_chairs"
+			],
+			[
+				"obj",
+				"objArray"
+			],
+			[
+				"pri",
+				"primaryCategory"
+			],
+			[
+				"i",
+				"i"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/indePENDANT/independant"
+	],
+	"file_history":
+	[
+		"/D/Projects/indePENDANT/independant3/app/models/user.rb",
+		"/D/Projects/indePENDANT/independant3/config/boot.rb",
+		"/D/Projects/indePENDANT/independant3/config/application.rb",
+		"/D/Projects/indePENDANT/independant3/config/environment.rb",
+		"/D/Projects/indePENDANT/independant3/bin/spring",
+		"/D/Projects/indePENDANT/independant3/Gemfile",
+		"/D/Projects/indePENDANT/independant3/Procfile.txt",
+		"/D/Projects/indePENDANT/independant3/Procfile",
+		"/D/Projects/indePENDANT/independant/app/controllers/api/v1/users_controller.rb",
+		"/D/Projects/indePENDANT/independant2/Gemfile",
+		"/D/Projects/indePENDANT/independant2/spec/rails_helper.rb",
+		"/D/Projects/indePENDANT/independant2/config/routes.rb",
+		"/D/Projects/indePENDANT/independant2/app/controllers/homepage_controller.rb",
+		"/D/Projects/indePENDANT/independant/config/routes.rb",
+		"/D/Projects/indePENDANT/independant2/config/database.yml",
+		"/D/Work/Superbolter/Structure/config/routes.rb",
+		"/D/Projects/indePENDANT/independant2/config/application.rb",
+		"/D/Projects/indePENDANT/independant/config/database.yml",
+		"/D/Projects/indePENDANT/independant/app/controllers/application_controller.rb",
+		"/D/Projects/indePENDANT/independant/app/views/hello/index.html.erb",
+		"/D/Projects/indePENDANT/independant/app/controllers/hello_controller.rb",
+		"/D/Projects/indePENDANT/independant2/app/views/homepage/index.html.erb.txt",
+		"/D/Projects/indePENDANT/independant/app/serializers/api/v1/user_serializer.rb",
+		"/D/Projects/indePENDANT/independant/config/initializers/assets.rb",
+		"/D/Projects/indePENDANT/independant/app/controllers/users_controller.rb",
+		"/D/Projects/indePENDANT/independant/config/application.rb",
+		"/D/Projects/indePENDANT/independant/db/migrate/20170908181214_create_users.rb",
+		"/D/Projects/indePENDANT/independant/app/helpers/google_maps_helper.rb",
+		"/D/Projects/indePENDANT/independant/app/controllers/api/v1/latlong_controller.rb",
+		"/D/Projects/ObjectDetection/PyQt4_gpl_win-4.12.1/README",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/object_detection_tutorial.py",
+		"/D/Projects/ObjectDetection/development/object_detection_tutorial.py",
+		"/D/Projects/indePENDANT/independant/app/helpers/application_helper.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/api/v1/recommendations_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/api_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/hyperloop/v1/users/likes_controller.rb",
+		"/D/Projects/indePENDANT/independant/app/helpers/google_maps.rb",
+		"/D/Projects/indePENDANT/independant/Gemfile",
+		"/D/Miscellaneous/Ellapadagalu/app/models/bot.rb",
+		"/D/Miscellaneous/Ellapadagalu/config/application.yml",
+		"/D/Miscellaneous/Ellapadagalu/config/initializers/twitter.rb",
+		"/D/Projects/indePENDANT/independant/app/helpers/hello_helper.rb",
+		"/D/Projects/indePENDANT/webstuff/config/database.yml",
+		"/D/Projects/indePENDANT/webstuff/config/routes.rb",
+		"/D/Projects/indePENDANT/webstuff/app/views/home/index.html.erb",
+		"/D/Projects/indePENDANT/webstuff/Gemfile",
+		"/D/Projects/indePENDANT/indePENDANT/Gemfile",
+		"/D/Projects/indePENDANT/webstuff/config/application.yml",
+		"/D/Work/Superbolter/Structure/config/application.yml",
+		"/D/Work/Superbolter/Structure/config/environment.rb",
+		"/D/Projects/indePENDANT/webstuff/config/application.rb",
+		"/D/Projects/indePENDANT/webstuff/app/models/application_record.rb",
+		"/D/Projects/indePENDANT/webstuff/app/controllers/application_controller.rb",
+		"/D/Projects/indePENDANT/webstuff/app/views/layouts/mailer.text.erb",
+		"/D/Projects/indePENDANT/webstuff/app/views/layouts/mailer.html.erb",
+		"/D/Projects/indePENDANT/webstuff/app/views/layouts/application.html.erb",
+		"/D/Projects/cr1.py",
+		"/D/Projects/cr2.py",
+		"/D/Projects/cr3.py",
+		"/D/Miscellaneous/Ellapadagalu/config/application.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/update.rake",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/environments/development.rb",
+		"/C/Users/guthi/Anaconda3/envs/tfgpu/Lib/importlib/__init__.py",
+		"/C/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v8.0/lib/x64/cudnn.lib",
+		"/D/Miscellaneous/Ellapadagalu/Gemfile",
+		"/D/Projects/DBMS(Gourish)/ddecor.rb",
+		"/D/CV Stuff/conservative.m",
+		"/D/Projects/DBMS(Gourish)/Scraper.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/synchronize.rake",
+		"/D/Work/Superbolter/Structure/lib/tasks/create.rake",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/database.yml",
+		"/D/Work/Superbolter/Structure/app/models/Snippets.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/synchronize_rel.rake",
+		"/D/Work/Superbolter/Structure/Validation.bat",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/core/model.py",
+		"/D/Projects/DBMS(Gourish)/poster_gully.rb",
+		"/C/Program Files/PostgreSQL/9.6/include/server/postmaster/postmaster.h",
+		"/C/Program Files/PostgreSQL/9.6/data/postmaster.pid",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/environments/production.rb",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/environments/test.rb",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/config/application.rb",
+		"/D/Projects/DBMS(Gourish)/Lichessbase/db/seeds.rb",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/nearest_neighbor.ipynb",
+		"/D/Work/Superbolter/Structure/lichess.txt",
+		"/D/Projects/DBMS(Gourish)/Lichesslinks.txt",
+		"/C/Users/guthi/Downloads/schema.rb",
+		"/C/Users/guthi/Downloads/lichess_pgn_2017.08.17_maxgreeng_vs_BahadirOzen.aUO7gqCX (1).pgn",
+		"/C/Users/guthi/Desktop/ML/machine-learning-ex1/ex1/ex1_multi.m",
+		"/C/Users/guthi/Desktop/ML/machine-learning-ex1/machine-learning-ex2/ex2/ex2_reg.m",
+		"/C/Users/guthi/Downloads/lichess_pgn_2017.08.08_Adautolucas_vs_Stoil894.pEB7MmEI.pgn",
+		"/D/Work/Superbolter/Structure/app/models/account.rb",
+		"/D/Work/Superbolter/Structure/development/pf/ImageLinks.rb",
+		"/D/Work/Superbolter/Structure/development/load.rb",
+		"/C/Users/guthi/Desktop/test.bat",
+		"/D/Work/Superbolter/Structure/app/models/product.rb",
+		"/D/Work/Superbolter/Structure/app/models/user.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/application_controller.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/crup.rake",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/protos/anchor_generator_pb2.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/loadprotos.bat",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/builders/model_builder_test.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/utils/ops.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/models/ssd_inception_v2_feature_extractor.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/models/faster_rcnn_resnet_v1_feature_extractor.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/slim/nets/resnet_v1.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models/next_frame_prediction/cross_conv/model.py",
+		"/D/Projects/ObjectDetection/Tensorflow models/models-master/object_detection/protos/train.proto",
+		"/D/Projects/ObjectDetection/Tensorflow models/models-master/object_detection/protos/__init__.py",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/development/pf/load.rb",
+		"/D/Work/Superbolter/Structure/development/pf/load.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/api/services_controller.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/resources/hyperloop/account.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/api_controller.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/api/v1/recommendations_controller.rb",
+		"/D/Work/Superbolter/Git/Recommendation-Engine/app/controllers/products_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/web_controller.rb",
+		"/D/Work/Superbolter/Structure/app/controllers/products_controller.rb",
+		"/D/Work/Superbolter/Structure/app/views/products/show.html.erb",
+		"/D/Work/Superbolter/Structure/app/models/design.rb",
+		"/D/Work/Superbolter/Structure/app/views/products/new.html.erb",
+		"/D/Work/Superbolter/Structure/app/models/primary_category.rb",
+		"/D/Work/Superbolter/Structure/app/models/style.rb",
+		"/D/Work/Superbolter/Structure/app/models/category.rb",
+		"/D/Work/Superbolter/Structure/lib/tasks/demo.rake",
+		"/D/Work/Superbolter/Structure/lib/tasks/sample.rake",
+		"/D/Work/Superbolter/Structure/waste.rb",
+		"/D/Work/Superbolter/Structure/development/crup.rake"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"x",
+			"primarykey",
+			"#-",
+			"{",
+			"HAS_PRODUCT",
+			"page"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 29.0
+	},
+	"pinned_build_system": "",
+	"project": "Structure.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,2 @@
+class Latlong < ApplicationRecord
+end

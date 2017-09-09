@@ -1,0 +1,27 @@
+<%= form_with(model: usercontact, local: true) do |form| %>
+  <% if usercontact.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(usercontact.errors.count, "error") %> prohibited this usercontact from being saved:</h2>
+
+      <ul>
+      <% usercontact.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :imei %>
+    <%= form.text_field :imei, id: :usercontact_imei %>
+  </div>
+
+  <div class="field">
+    <%= form.label :contacts %>
+    <%= form.text_field :contacts, id: :usercontact_contacts %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
